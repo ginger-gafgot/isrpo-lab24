@@ -2,9 +2,13 @@ import math
 
 
 def area(r):
-    return math.pi * r * r
+	''' Принимает вещественное число r; возвращает площадь окружности с радиусом r '''
+	
+	return math.pi * r * r
 
 
 def perimeter(r):
-    return 2 * math.pi * r
+	''' Принимает вещественное число r; возвращает периметр окружности с радиусом r '''
+
+	return 2 * math.pi * r
 
